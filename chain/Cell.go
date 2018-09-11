@@ -1,11 +1,11 @@
-package UnitPrototype
+package chain
 
 import (
 	"strconv"
 	"bytes"
 	"crypto/sha256"
 	"time"
-)
+	)
 
 type Block struct {
 
@@ -30,4 +30,3 @@ func NewBlock(data string, prevBlockHash []byte) *Block {
 
 	return block
 }
-
